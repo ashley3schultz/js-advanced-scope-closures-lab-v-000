@@ -1,7 +1,5 @@
 function produceDrivingRange(len){
-  return function(){
-    
-  }
+  return len
 }
 
 class ProduceTipCalculator{
