@@ -7,10 +7,8 @@ function produceDrivingRange(rng){
 }
 
 
-function produceTipCalculator(rng){
-  return function(beg, end){
-    let b = parseInt(beg)
-    let e = parseInt(end)
-    return (e - b) > rng ? `${(e - b)-rng} blocks out of range` : `within range by ${rng-(e - b)}`
+function produceTipCalculator(percent){
+  return function(total){
+    return total * percent
   }
 }
