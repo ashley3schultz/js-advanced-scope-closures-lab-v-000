@@ -1,6 +1,6 @@
-function produceDrivingRange(len){
+function produceDrivingRange(blockRange){
   return function(){
-    
+
   }
 }
 
