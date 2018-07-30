@@ -1,6 +1,6 @@
 function produceDrivingRange(blockRange){
   return function(){
-    return blockRange > 10 ? `${blockRange - 10} blocks out of range` : `within range by ${10 - blockRange}`
+    return blockRange > 10 ? `${10 - blockRange} blocks out of range` : `within range by ${blockRange - 10}`
   }
 }
 
